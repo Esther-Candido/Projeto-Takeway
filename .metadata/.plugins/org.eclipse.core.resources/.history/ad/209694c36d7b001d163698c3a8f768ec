@@ -1,0 +1,16 @@
+
+public class CreateCard {
+
+	public static void main(String[] args) {
+	
+	CreditCard cc1 = new CreditCard("Joao Silva", "1111 2222 3333 4444",1500.0," Caixa Geral de Depositos");
+	cc1.Visualizar();
+	System.out.println(" Limite: "+ cc1.limite);
+	
+	cc1.Visualizar();
+	cc1.Visualizar();cc1.Visualizar();cc1.Visualizar();
+		
+ }
+		
+
+}

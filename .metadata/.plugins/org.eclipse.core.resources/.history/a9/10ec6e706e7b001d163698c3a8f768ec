@@ -1,0 +1,14 @@
+
+public class CreateCard {
+
+	public static void main(String[] args) {
+	
+
+	
+	cc1.Visualizar();
+	cc1.Visualizar();cc1.Visualizar();cc1.Visualizar();
+		
+ }
+		
+
+}

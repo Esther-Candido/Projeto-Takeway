@@ -1,0 +1,74 @@
+import java.util.Scanner;
+
+public class Sobremesa extends Produto{
+	int gelm, gelc, cafc, cafl, panm, panc, dentrosobre;
+	
+	Scanner entrada1 = new Scanner(System.in);
+	
+	public void gelado () {	
+		System.out.println("Escolha Gelado:\n"
+				+ " 1 - Morango |"
+				+ " 2 - Chocolate |");
+		dentrosobre = entrada1.nextInt();
+		
+		if (dentrosobre == 1) {
+			gelm += 1;}
+		
+		if (dentrosobre == 2) {
+			gelc += 1;}
+		
+		}
+		
+	public void cafe () {	
+		System.out.println("╔──────────────╗\r\n"
+						 + "║     Café     ║\r\n"
+						 + "║              ║\r\n"
+						 + "║ 1 - Curto    ║\r\n"
+						 + "║ 2 - Longo    ║\r\n"
+						 + "╚═────────────═╝");	
+		dentrosobre = entrada1.nextInt();
+		
+		if (dentrosobre == 1) {
+			System.out.println("╔────────────╗\r\n"
+							 + "║ Café Curto ║"
+							 + "║ Adicionado ║\r\n"
+							 + "╚═──────────═╝");
+			cafc += 1;}
+		
+		if (dentrosobre == 2) {
+			System.out.println("╔────────────╗\r\n"
+							 + "║ Café Longo ║"
+							 + "║ Adicionado ║\r\n"
+							 + "╚═──────────═╝");
+			cafl += 1;}
+		
+		}
+		
+	public void panqueca () {
+		System.out.println("╔──────────────────╗\r\n"
+						 + "║     Panqueca     ║\r\n"
+						 + "║                  ║\r\n"
+						 + "║ 1 - Morango      ║\r\n"
+						 + "║ 2 - Chocolate    ║\r\n"
+						 + "╚═────────────────═╝");	
+		System.out.println("Escolha Panqueca:\n"
+				+ " 1 - Morango |"
+				+ " 2 - Chocolate |");
+		dentrosobre = entrada1.nextInt();
+		
+		if (dentrosobre == 1) {
+			System.out.println("╔─────────────────────╗\r\n"
+							 + "║ Panqueca de Morango ║"
+							 + "║      Adicionada     ║\r\n"
+							 + "╚═───────────────────═╝");
+			panm += 1;}
+		
+		if (dentrosobre == 2) {
+			System.out.println("╔───────────────────────╗\r\n"
+							 + "║ Panqueca de Chocolate ║"
+							 + "║       Adicionada      ║\r\n"
+							 + "╚═─────────────────────═╝");
+			panc += 1;}
+		
+		}
+}

@@ -1,0 +1,15 @@
+
+public class CreateCard {
+
+	public static void main(String[] args) {
+	
+	CreditCard cc1 = new CreditCard();
+
+	
+	cc1.Visualizar();
+	cc1.Visualizar();cc1.Visualizar();cc1.Visualizar();
+		
+ }
+		
+
+}

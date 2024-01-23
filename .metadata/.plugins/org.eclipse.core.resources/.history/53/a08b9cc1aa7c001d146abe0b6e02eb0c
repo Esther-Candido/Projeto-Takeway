@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class Sobremesa extends Produto{
+	int gelm, gelc, cafc, cafl, panm, panc, dentrosobre;
+	
+	Scanner entrada1 = new Scanner(System.in);
+	
+	public void gelado () {	
+		System.out.println("Escolha gelado:\n"
+				+ " 1 - Morango |"
+				+ " 2 - Chocolate |");
+		dentrosobre = entrada1.nextInt();
+		
+		if (dentrosobre == 1) {
+			gelm += 1;}
+		
+		if (dentrosobre == 2) {
+			gelc += 1;}
+		
+		}
+		
+	public void cafe () {	
+		System.out.println("Escolha Cafe:\n"
+				+ " 1 - Curto |"
+				+ " 2 - Longo |");	
+		dentrosobre = entrada1.nextInt();
+		
+		if (dentrosobre == 1) {
+			cafc += 1;}
+		
+		if (dentrosobre == 2) {
+			cafl += 1;}
+		
+		}
+		
+	public void panqueca () {	
+		System.out.println("Escolha panqueca:\n"
+				+ " 1 - Morango |"
+				+ " 2 - Chocolate |");
+		dentrosobre = entrada1.nextInt();
+		
+		if (dentrosobre == 1) {
+			panm += 1;}
+		
+		if (dentrosobre == 2) {
+			panc += 1;}
+		
+		}
+}
